@@ -76,7 +76,7 @@ main section {
 
 .Hero-section {
   position: relative;
-  height: 37.5rem;
+  height: 30rem;
   background: url(./images/hero.jpg);
   background-size: cover;
   background-position: center center;
@@ -190,6 +190,19 @@ footer img {
   grid-gap: 1.875rem;
   list-style: none;
   grid-template-columns: 1fr;
+}
+
+@keyframes Hero-text {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 15%;
+  }
+}
+
+.Hero-section {
+  height: 24rem;
 }
 
 .Hero-section h1 {
